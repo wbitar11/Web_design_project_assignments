@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<h1 id='title'>freeCodeCamp Survey Form</h1>
+  <p id='description'>Thank you for taking the time to help us improve the platform</p>
+  <form id='survey-form'>
+    <p>Name</p>
+    <input id='name' type='text' placeholder='Enter your name' required>
+    <label id='name-label'>
+    <p>Email</p>
+    <input id='email' type='email' placeholder='Enter your Email' required>
+    <label id='email-label'>
+    <p>Age</p>
+    <input id='number' type='number' placeholder='Age' min='10' max='95'>
+    <label id='number-label'>optional
+    <p>Which option best describes your current role?</p>
+    <select placeholder='Select current role' id='dropdown'>
+      <option>Student</option>
+      <option>Full time job</option>
+      <option>Other</option>
+    </select>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+      <input name='recommendation-level' type='radio' value='definitely'>Definitely
+      <input name='recommendation-level' type='radio' value='maybe'>Maybe
+    <p>What would you like to see improved? (Check all that apply)</p>
+      <input type='checkbox' value='front-end'>Front-end Projects
+      <input type='checkbox' value='back-end'>Back-end Projects
+    <p>Any comments or suggestions?</p>
+    <textarea>
+    </textarea>
+    <input id='submit' type='submit'>
+  </form>
